@@ -30,3 +30,25 @@ The model has perfect recall for USA speeches, meaning it captures all USA insta
 
 
 ## Sentiment Analysis
+
+For sentiment analysis I used the Python library TextBlob to analyze the speeches and assign a sentiment score. TextBlob sets the sentiment score as a floating point within the range [-1.0, 1.0], where -1.0 denotes a very negative sentiment, 1.0 denotes a very positive sentiment, and values around 0 denote a neutral sentiment. I then  added a new column to the dataframe containing the sentiment score for the corresponding speech.
+
+The following is a snapshot of the dataframe.
+
+<img width="1015" alt="Screen Shot 2024-10-09 at 12 09 07 PM" src="https://github.com/user-attachments/assets/ae8cedd9-0a1f-422f-b0d9-afea0ebcb4ba">
+
+
+The average sentiment of each speech for both USA and Canada.
+
+<img width="277" alt="Screen Shot 2024-10-09 at 12 09 35 PM" src="https://github.com/user-attachments/assets/c76788dc-4d2e-4c72-8229-101aa5343df7">
+
+
+The average sentiment for each speaker
+
+<img width="259" alt="Screen Shot 2024-10-09 at 12 09 46 PM" src="https://github.com/user-attachments/assets/4dd45688-328f-418a-b400-035514c7771c">
+
+
+The average sentiment for each year sorted in descending order based on their average sentiment.
+
+<img width="625" alt="Screen Shot 2024-10-09 at 12 10 00 PM" src="https://github.com/user-attachments/assets/83e7a2fb-6116-4d71-81b5-c6819c090628">
+
