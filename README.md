@@ -52,3 +52,12 @@ The average sentiment for each year sorted in descending order based on their av
 
 <img width="625" alt="Screen Shot 2024-10-09 at 12 10 00 PM" src="https://github.com/user-attachments/assets/83e7a2fb-6116-4d71-81b5-c6819c090628">
 
+
+### List of references used to complete the project
+https://scikit-learn.org/stable/modules/svm.html
+
+https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
+
+https://www.nltk.org/
+
+https://textblob.readthedocs.io/en/dev/
