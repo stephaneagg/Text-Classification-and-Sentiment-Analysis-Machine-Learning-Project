@@ -1,5 +1,5 @@
 # Text-Classification-and-Sentiment-Analysis-Machine-Learning-Project
-Project used to learn how to use Support Vector Machines and Sentiment Analysis to classify data entries.
+Machine learning project used to learn how to use Support Vector Machines and Sentiment Analysis to classify data entries.
 
 The dataset used for this project contains speeches from the UN General debates (1970 - 2017).
 
